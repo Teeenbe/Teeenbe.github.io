@@ -1,0 +1,35 @@
+Picture of Peter Griffin
+    CSS positioning
+
+Speech bubble with joke inside when button clicked
+if joke too long, fetch new joke
+    div container
+    speech bubble image
+    p element with joke
+    create all that when button clicked
+        speech bubble disappears when joke over
+            need time to read joke, setTimeout()
+
+    div always on page, CSS, image etc. already done - HTML/CSS
+    addEventListener to button
+        on click, change text in div to new joke
+
+        speech bubble appear/disappear
+        no speech bubble until button clicked
+        when button clicked speech bubble appears
+        if speech bubble present, change joke text only
+
+        class of transparent in css 
+        speech bubble is transparent 
+        when button clicked remove class from speech bubble
+        setTimeout to add transparent class again
+        if button clicked before setTimeout ends 
+            clear timeout and start again
+        
+    FLUSH SOUND ON CLICK
+
+
+while length > 70
+    fetch data
+    unpack data
+add joke
